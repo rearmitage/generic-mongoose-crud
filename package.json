@@ -1,0 +1,36 @@
+{
+  "name": "generic-mongoose-crud",
+  "version": "1.0.0",
+  "description": "A simple crud tool for mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rearmitage/generic-mongoose-crud"
+  },
+  "keywords": [
+    "crud",
+    "mongoose",
+    "express",
+    "mongo",
+    "mongodb"
+  ],
+  "author": {
+    "name": "Richard Armitage",
+    "email": "richiearmitage@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "~3.13",
+    "eslint-config-airbnb-base": "~11.0.1",
+    "eslint-plugin-import": "~2.2",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "mongoose": "^4.8.6"
+  }
+}
