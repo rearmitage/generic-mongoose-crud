@@ -27,6 +27,8 @@ coverage
 build/Release
 
 # Dependency directories
+.vscode
+.eslintrc.js
 node_modules
 jspm_packages
 
@@ -35,8 +37,6 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-views/index.ejs
-ß
 
 *.orig # git files...
 *.js.orig
