@@ -27,7 +27,7 @@ const crud = {
     return Model.findOne({ _id }).exec().then((doc) => {
       if (!doc) {
         let err = new Error(Model.modelName + ' Not Found');
-        err.status = 204;
+        err.status = 404;
         return Promise.reject(err);
       }
       return Promise.resolve(doc);
@@ -54,7 +54,7 @@ const crud = {
     return Model.findOne({ _id }).exec().then((doc) => {
       if (!doc) {
         let err = new Error(Model.modelName + ' Not found');
-        err.status = 204;
+        err.status = 404;
         return Promise.reject(err);
       }
       Object.keys(data).forEach((key) => {
